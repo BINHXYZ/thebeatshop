@@ -1,0 +1,502 @@
+@charset "utf-8";
+/* CSS Document */
+
+.wrapter
+{
+	width:100%;
+	height:auto;
+	margin:auto;
+}
+.header
+{
+ width:100%;
+ height:60px;
+ background:#c4c4c4;
+
+}
+.in_header
+{
+	width:1024px;
+	height:60x;
+	background:#c4c4c4;
+	margin:auto;
+}
+.nav
+{
+	margin:auto;
+	width:100%;
+	height:50px;
+	background:#000;
+	display: flex;
+  	justify-content: center;
+}
+.nav ul
+{
+	text-align:center;
+	list-style:none;
+	padding:0px;
+	float:left;
+}	
+.nav ul li
+{
+	float:left;
+	padding:0 12px;
+}
+.nav ul li a
+{
+	
+	color:#FFF;
+	text-decoration:none;
+	margin: 0px;
+}
+.w-wrap
+{
+	width:1024px;
+	background:#FFF;
+	margin:auto;
+	padding:10px 0;
+}
+.slider
+{
+	width:700px;
+	height:400px;
+	background:#F00;
+	float:left;
+	margin:10px 10px 10px 0;
+}
+.banner
+{
+	width:300px;
+	height:110px;
+	background:#900;
+	float:right;
+	margin: 5px 0px 5px 10px;
+	display: flex;
+  	flex-direction: column;	
+}
+.post
+{
+	width:300px;
+	height:160px;
+	float:right;
+	margin:10px 0px 10px 10px;
+	background:#3C6;	
+}
+.clear_both
+{
+	clear:both;
+}
+.banner_229
+{
+	width:1024px;
+	height:229px;
+	margin:10px 0;
+	background:#F00;
+}
+.content
+{
+	width:1024px;
+	background:#FFF;
+	margin:auto;
+	padding:10px 0;
+	text-align:center;
+	height:auto;
+}
+.items
+{
+	width:178px;
+	height:300px;
+	display: flex;
+ 	justify-content:center;
+	float:left;
+	margin:12px;
+	border:solid 0.5px #C4C4C4;
+	position:relative;
+	
+}
+.button
+{
+	width:100px;
+	height:30px;
+	border:solid 1px #000;
+	margin:auto;
+	text-align:center;
+	font-size:16px;
+	padding-top:5px;
+}
+.button a
+{
+	color:#000;
+	text-decoration:none;
+}
+.beats_pro
+{
+	width:1024px;
+	background:#FFF;
+	margin:auto;
+	padding:10px 0;
+}
+.colume_1
+{
+	height:546px;
+	width:285px;
+	background:#f2f2f2;
+	float:left;
+	margin-top:5px;
+	
+}
+.colume_2
+{
+	height:546px;
+	width:285px;
+	background:#FFF;
+	float:left;
+	margin:5px;
+
+}
+.colume_3
+{
+	height:546px;
+	width:444px;
+	background:#f2f2f2;
+	float:right;
+	margin-top:5px;
+}
+.colume_4
+{
+	height:350px;
+	width:100%;
+	background:#f2f2f2;
+	margin-top:15px;
+}
+.Box1
+{
+	height:255px;
+	width:255px;
+	background:#f2f2f2;
+	margin:auto;	
+}
+.Box2
+{
+	top:36px;
+	height:255px;
+	width:255px;
+	background:#f2f2f2;
+	margin:auto;
+	position:relative;
+}
+.News
+{
+	width:100%;
+	background:#3F3;
+}
+.Footer
+{
+
+	width:100%;
+	background:#000;
+}
+.toggle_content_menu
+{
+	height:auto;
+	display: flex;
+ 	justify-content: center;
+}
+.toggle_col1
+{	
+	font-size:14px;
+	color: #FFF;
+	padding:10px;
+	margin:15px;
+	float:left
+}
+.toggle_col1 ul
+{
+	list-style:none;
+	padding:0;
+}
+.toggle_col1 ul li a
+{
+	text-decoration:none;
+	color:#FFF;
+}
+.maps
+{
+	width:1024px;	
+	height:480px;
+	background:#FFF;
+	margin:auto;
+	padding:10px 0;
+}
+.logo
+{
+	height:57px;
+	width:200px;
+	float:left;
+}
+.box_icon_cat {
+   	width:22px;
+    float: left;
+    margin-right:8px;
+    text-align: center;
+	display: flex;
+ 	justify-content: center;
+}
+.over_view
+{
+	width:400px;
+	height:auto;
+	background:#FFF;
+	float:right;
+}
+.box_items
+{
+	width:800px;
+	float:right;
+	padding:0 0 20px 0;
+}
+.items-product
+{
+	width:200px;
+	height:300px;
+    float: left;
+	border:solid 0.1pt #eee;
+	display:block;
+}
+.menu_left_thuong_hieu
+{
+	width:200px;
+	height:auto;
+	float:left;
+	margin:0 0 20px 0;
+}
+.menu_left_thuong_hieu ul
+{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	text-align:left;
+}
+.menu_left_thuong_hieu li a
+{
+	text-decoration:none;
+	font-size:14px;
+}
+.buy_button
+{
+	width:120px;
+	height:40px;
+	padding:10px;
+	background-color:#d54d4d;
+	text-align:center;
+	border-radius:5px;
+	margin:auto;
+	position:absolute;
+}
+.buy_button a
+{
+	text-decoration:none;
+}
+.form_box
+{
+	width:600px;
+	height:750px;
+	margin:auto;
+	margin-top:50px;
+	position:relative;
+}
+.tieu_de
+{
+	width:600px;
+	margin-top:10px;
+}
+.thong_tin_khach_hang
+{
+	width:600px;
+	height:auto;
+}
+.phuong_thuc_giao_hang
+{
+	width:500px;
+	height:220px;
+	padding:20px 0;
+	border:solid 2px #eee;
+	border-radius:7px;
+	margin:auto;
+}
+
+.khu_vuc_giao
+{
+	height:30px;
+	width:500px;
+}
+input[type=text]
+{
+	width:500px;
+	height:30px;
+	border:solid 1px #c4c4c4;
+	border-radius:5px;
+	margin:5px 50px;
+}
+.icon_sale
+{
+	top:5px;
+	right:10px;
+	width:40px;
+	height:40px;
+	position:absolute;
+	background:url(../images/Untitled-1.png);
+	z-index:inherit;
+	animation-name:hieu-ung-phong-to-icon;
+	animation-duration:1s;
+	animation-timing-function:linear;
+	animation-iteration-count:infinite;
+}
+@keyframes hieu-ung-phong-to-icon
+{
+	0% 
+	{transform:scale(1.5,1.5)}
+	50%
+	{transform:scale(1,1)}
+	100%
+	{transform:scale(1.5,1.5)}
+	
+	}
+	
+}
+.check_box
+{
+
+ display:inline;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+.check_box input  /*ẨN NÚT CHECK BOX MẶT ĐỊNH*/
+{
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark /* CUSTOM ô check box */
+{
+position:absolute;
+  top: 265px;
+  left: 55px;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+  margin:10px;
+}
+/*Khi trỏ con chuột vào sẽ là màu xám*/
+.check_box:hover input ~
+.checkmark
+{
+	background-color: #ccc;
+}
+.check_box input:checked ~ /*khi nhấn vào check box sẽ có màu xanh*/
+.checkmark
+{
+	 background-color: #2196F3;
+}
+ /*Thuộc tính chấm giua se bien mat khi khong check*/
+.checkmark:after
+{
+  content: "";
+  position: absolute;
+  display: none;
+}
+/*Thuộc tính khi nhấn vào check box sẽ hiện chấm ở giữa*/
+.check_box input:checked ~ 
+.checkmark:after {
+	display: block;
+}
+.check_box .checkmark:after 
+/*thuộc tính của dot*/
+{
+ 	top: 9px;
+	left: 9px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: white;
+}
+.box_giao_hang_tan_noi
+{
+	margin:auto;
+	height:40px;
+	border-bottom:solid 1px #eee;
+}
+.box_dia_diem
+{
+	padding:15px;
+	height:80Px;
+	text-align:center;
+	display: flex;
+  justify-content: center;
+  border-bottom:solid 1px #eee;
+	
+}
+.col_one
+{
+	width:150px;
+	float:left;
+}
+.Giao_nhan_cua_Hang
+{	
+	display:block;
+	position:relative;	
+	height:70px;
+	background:#0F0;
+	margin:10px 0;
+}
+
+.Form_Thanh_toan
+{
+	height:120px;
+	width:500px;
+	margin:30px 50px;
+	border-radius:7px;
+	border:solid 1px #eee;
+}
+.thanh_ngang
+{
+	border:solid 1px #eee;
+
+}
+input[type=submit]:hover
+{
+  	background-color: #f65c5c;
+}
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+  background:#f65c5c;
+}
+
+#myBtn:hover {
+  background-color:#f65c5c;
+}
+.search_bar input[type=text]
+{
+	width:350px;
+}
+.cam_nghi
+{
+	margin:auto;
+	padding:20px;
+}

@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/style1.css"/>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+</style>
+</head>
+<body>
+<div class="wrapter">
+	<div class="header">
+    	<div class="in_header">
+    	<div class="logo"><img src="images/THE BEATS SHOP LOGO.png"/></div>
+        <div class="topnav" style="width:200px; float:left;margin:10px 0;">  
+		<input type="text" placeholder="Tìm kiếm..">
+		</div>
+    	<div class="gio_hang" style="margin:10px; float:right;"><img src="images/user-account-box.png" /><span style="color:#FFF;">Đăng nhập</span></div>
+     <div class="gio_hang" style="margin:11px; float:right;"><img src="images/Frame 8.png" /><span style="color:#FFF;">Giỏ hàng</span></div>
+    </div><!--End in-header-->
+    </div><!--End Header-->
+    	<div class="nav">
+        <ul>
+        	<li><span class="box_icon_cat"><a href="main.html"><img src="images/house-black-silhouette-without-door.png"/></a></span></li>
+        	<li><span class="box_icon_cat"><img src="images/cb_4d485476e07e02638e8e2133cdf8f56d.png"/></span><a href="#">TAI NGHE</a></li>
+            <li><span class="box_icon_cat"><img src="images/cb_a22746738a475a75211f96a98549a811.png"/></span><a href="#">MÁY NGHE NHẠC</a></li>
+            <li><span class="box_icon_cat"><img src="images/cb_f6c8dd5cf8f95e19e99ef874e3edc242.png"/></span><a href="#">LOA|SPEAKER</a></li>
+            <li><span class="box_icon_cat"><img src="images/cb_d3306ab36c10519e174cd70561740e69.png"/></span><a href="#">PHỤ KIỆN</a></li>
+            <li><span class="box_icon_cat"><img src="images/icon_cat_saleoff.png" style="margin:auto;"/></span><a href="#">SECONHAND</a></li>
+            <li><span class="box_icon_cat"><img src="images/repair-garage.png"/></span><a href="#">DỊCH VỤ</a></li>
+            <li><span class="box_icon_cat"><img src="images/place-localizer.png"/></span><a href="#">LIÊN HỆ</a></li>
+        </ul>
+        </div>
+   <div class="w-wrap">
+    	<div class="form_box">
+        	<div class="tieu_de"><P style="font-weight:bold; text-align:center;">THÔNG TIN ĐƠN HÀNG</P></div>
+           <div class="thong_tin_khach_hang">
+           <p style="margin-left:50px;">Thông tin khách hàng (<span style="color:#F00">*bắt buộc</span>)</p>
+           <form> 
+            <input type="text" id="ho_ten" placeholder="Họ & Tên"/>
+            <input type="email" id="Email" placeholder="Email" style="width:240px; height:30px; margin: 5px 5px 0 50px; border:solid 1px #c4c4c4;
+	border-radius:5px;"/>
+            <input type="text" id="so_dt" placeholder="Số Điện Thoại" style="width:250px; margin:5px 0;"/>
+            </form>
+            <input type="text" id="dia_chi" placeholder="Địa chỉ"/>
+          </div>
+     
+        <p style="margin:20px 50px;">Phương thức giao hàng</p>
+         <div class="phuong_thuc_giao_hang">
+         <div class="box_giao_hang_tan_noi">
+       	<label class="check_box">
+  <input type="radio" name="radio">
+  <span class="checkmark"></span>
+  <span style="padding:50px; font-weight:bold; font-size:13px;">GIAO HÀNG TẬN NƠI</span>
+</label>    
+		</div>
+        <div class="box_dia_diem">
+   		<div class="col_one">
+        <label for="City">Tỉnh/Thành Phố</label>
+    <select id="City" name="country">
+      <option value="tinh_thanhpho">Tỉnh/Thành phố</option>
+      <option value="HCM">Hồ Chí Minh</option>
+      <option value="HN">Hà Nội</option>
+      <option value="HP">HẢI PHÒNG</option>
+      <option value="ĐN">ĐÀ NẴNG</option>
+      <option value="CT">CẦN THƠ</option>
+      <option value="CM">CÀ MAU</option>
+      <option value="TDM">THỦ DẦU MỘT</option>
+      <option value="V">VINH</option>
+      <option value="HP">HẢI PHÒNG</option>
+    </select>
+    </div>
+    <div class="col_one">
+    	   <label for="Distric">Quận/Huyện</label>
+    <select id="Distric" name="Distric">
+      <option value="Quan_Huyen">Quận Huyện</option>
+      
+      <option value="">1</option>
+      <option value="">2</option>
+      <option value="">3</option>
+      <option value="">4</option>
+      <option value="">5</option>
+      <option value="">6</option>
+      <option value="">9</option>
+      <option value="">9</option>
+      <option value="">10</option>
+    </select>
+ </div>
+ <div class="col_one">
+     <label for="PHUONG">Phường/Xã</label>
+    <select id="PHUONG" name="PHUONG">
+      <option value="PHUONG_XA">Phường/Xã</option>
+    <option value="">1</option>
+      <option value="">2</option>
+      <option value="">3</option>
+      <option value="">4</option>
+      <option value="">5</option>
+      <option value="">6</option>
+      <option value="">9</option>
+      <option value="">9</option>
+      <option value="">10</option>
+    </select>
+    </div>
+    	</div>
+        <label class="check_box">
+  <input type="radio" name="radio">
+  <span class="checkmark" style="top:400px;position:absolute;"></span>
+  <span style="padding:15px 50px; font-weight:bold; font-size:13px; position:absolute;">ĐẾN CỬA HÀNG NHẬN</span>
+</label>    
+         </div>
+         <p style="padding-left:50px;">Phương pháp thanh toán</p>
+         <div class="Form_Thanh_toan">
+         <label class="check_box">
+  <input type="radio" name="radio">
+  <span class="checkmark" style="top:545px;"></span>
+  <span style="padding:15px 50px; font-weight:bold; font-size:13px; position:relative; display:block;">Thanh toán bằng tiền mặt sau khi nhận hàng (COD)</span>
+</label> 
+		<div class="thanh_ngang"></div>
+		<label class="check_box">
+ 		<input type="radio" name="radio">
+        <span class="checkmark" style="top:600px;"></span>
+        <span style="padding:20px 50px; font-weight:bold; font-size:13px; position:absolute;">Thanh toán qua tài khoản ngân hàng điện tử (ATM/Visa/Master card/JBC/Momo/...</span>
+        </label>    
+	         </div>
+             <div style="text-align:center;">
+             <a href="main.html"><input type="submit" value="Hoàn tất"/></a>
+             <a href="main.html"><input type="submit" value="Hủy"/></a>
+             </div>
+        </div> 
+ 	</div> <!--End w-wrap-->
+  <div class="Footer">
+  	<div class="toggle_content_menu">
+    	<div class="toggle_col1" style="width:200px;">
+        <img src="images/THE BEATS SHOP LOGO.png" style="margin-top:15px;">
+        <p>Ra đời vào năm 2019, công ty The Beats Shop đồng hành gồm các sản phẩm của Beats là các ứng dụng tương thích và hoạt động dễ dàng, có độ tương thích cao  đối với hầu hết các thiết bị, điển hình là dịch vụ Beats Music hay các phần mềm streaming tương ứng.</p></div>
+    	<div class="toggle_col1">
+              <h6><span style="font-size:22px; padding-bottom:10px; color:#FFF;">Thông tin</span></h6>
+        	<ul>
+            	<li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Sự kiện</a></li>
+                <li><a href="#">Tin tức</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+            <h6><span style="font-size:22px; padding-bottom:10px; color:#FFF;">Mua Hàng</span></h6>
+        	<ul>
+            	<li><a href="#">Hướng dẫn mua hàng</a></li>
+                <li><a href="#">Hình thức thanh toán</a></li>
+                <li><a href="#">Hướng dẫn trả góp</a></li>
+                <li><a href="#">Dịch vụ sữa chữa</a></li>
+                <li><a href="#">Quy định bảo hành</a></li>
+                <li><a href="#">Đổi&trả hàng</a></li>
+                <li><a href="#">Giao hàng</a></li>
+                <li><a href="#">Cam kết hàng hóa Uy tín</a></li>
+    		</ul>
+         </div><!--END col1-->
+      <div class="toggle_col1">
+        <h6><span style="font-size:22px; padding-bottom:30px; color:#FFF;">Hệ thống cửa hàng</span></h6>
+        	<ul>
+            	<li><a href="#">CN1:106 Nguyễn Văn Trỗi, Q.Phú Nhuận</a></li>
+                <li><a href="#">CN2:106 Nguyễn Văn Trỗi, Q.Phú Nhuận</a></li>
+                <li><a href="#">CN3:106 Nguyễn Văn Trỗi, Q.Phú Nhuận</a></li>
+            </ul>
+            <h6><span style="font-size:22px; padding-top:30px; color:#FFF;">Thời gian làm việc</span></h6>
+        	<ul>
+            	<li><a href="#">Giờ làm việc 9h-22h</a></li>
+                <li><a href="#">Bán hàng T2-CN, ngày lễ nghỉ</a></li>
+                <li><a href="#">Kỹ thuật T2-T7 ngày lễ nghĩ</a></li>
+            </ul>
+         </div><!--col2-->
+        <div class="toggle_col1">
+            <h6><span style="font-size:22px; padding-top:30px; color:#FFF;">Liên hệ</span></h6>
+            <ul>
+                <li><a href="#">Bán hàng 094.11.44.66</a></li>
+                <li><a href="#">Bảo hành & Kỹ thuật: 098.7272.555</a></li>
+                <li><a href="#">Hotline:098.1234.000</a></li>
+                <li><a href="#">Website:www.thebeatshop.com</a></li>
+                <li><a href="#">Mail:thebeatshop@gmail.com</a></li>
+            </ul>
+			<h6><span style="font-size:22px; padding-top:30px; color:#FFF;">Kết nối với chúng tôi</span></h6>
+              <a href="#"><img src="images/facebook.png" style="padding:5px" width="20%" height="auto"/></a>
+        <a href="#"><img src="images/youtube(1).png" style="padding:5px" width="25%" height="auto"/></a>
+        <a href="#"><img src="images/instagram.png" style="padding:5px" width="20%" height="auto"/></a>
+        </div><!--col3-->
+        <div class="toggle_col1">
+         <h6><span style="font-size:22px; padding-top:30px; color:#FFF;">Thanh toán</span></h6>
+     	<img src="images/Hinh-thuc-thanh-toan.png" width="350px"/></br>
+        <img src="images/dathongbao-1024x388.png" width="350px"/>
+        </div><!--col4-->
+     </div><!--End toggle menu-->
+  <div class="clear_both"></div>
+  </div><!--End Footer-->
+</div> <!--End wrapter-->
+<script><!--Plugin Slider-->
+  var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+<script>
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("myBtn").style.display = "block";
+  } else {
+    document.getElementById("myBtn").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+</body>
+
+</html>
